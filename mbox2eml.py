@@ -78,7 +78,6 @@ def convert_mbox_to_eml(
 
                         _write_eml_file(message, eml_path)
                         success_count += 1
-                        print(f"Message {i} converted to {i}.eml")
                     except Exception as e:
                         print(f"Error processing message {i}: {str(e)}")
                         fail_count += 1
