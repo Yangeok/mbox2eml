@@ -60,13 +60,12 @@ The tool gracefully handles various edge cases:
 - **Empty Mbox**: Outputs a message if the `.mbox` file is empty but does not treat it as an error.
 - **Corrupted Mbox**: Skips invalid messages while continuing to process others.
 
-
 ## Development
 
 Clone the repository to contribute or run the utility locally:
 
 ```sh
-git clone https://github.com/yourusername/mbox2eml.git
+git clone https://github.com/yangeok/mbox2eml.git
 cd mbox2eml
 ```
 
